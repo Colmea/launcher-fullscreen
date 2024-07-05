@@ -1,0 +1,30 @@
+html,
+body {
+  /* Avoid ugly scrollbars */
+
+  /* Reset default browser paddings etc */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* 100% size */
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin-top: 1px;
+}
+
+.wrapper {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: darkslategrey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid orange;
+}
